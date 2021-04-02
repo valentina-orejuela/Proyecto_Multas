@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VincularProfesorACurso">
+
+    <Button
+        android:id="@+id/btnVincularE3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="128dp"
+        android:layout_y="313dp"
+        android:text="Vincular Profesor" />
+
+    <Spinner
+        android:id="@+id/spEstudiante3"
+        android:layout_width="359dp"
+        android:layout_height="37dp"
+        android:layout_x="31dp"
+        android:layout_y="233dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="191dp"
+        android:gravity="center"
+        android:text="Profesor:"
+        android:textColor="#050505"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spCurso3"
+        android:layout_width="359dp"
+        android:layout_height="37dp"
+        android:layout_x="26dp"
+        android:layout_y="105dp"
+        android:theme="@style/AppTheme"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="62dp"
+        android:gravity="center"
+        android:text="Curso:"
+        android:textColor="#050505"
+        android:textSize="24sp" />
+</AbsoluteLayout>
